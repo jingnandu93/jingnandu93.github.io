@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About myself:"
+title: "Jingnan Du's Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
