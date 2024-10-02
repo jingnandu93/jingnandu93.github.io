@@ -24,7 +24,7 @@ author:
   avatar           : "Jingnan_profile.png"
   name             : "Jingnan Du"
   pronouns         : # example: "she/her"  
-  bio              : "My Bio"
+  bio              : "I am a cognitive neuroscientist at Harvard University."
   location         : "Cambridge, MA"
   employer         : "Harvard University"
   uri              : # URL
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-1647-6698"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Du+J"
   researchgate     : # URL
 
   # Repositories and software development
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          :  jingnandu049
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
