@@ -6,7 +6,8 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+  #  url: /publications/
+    url: https://scholar.google.com/citations?user=PGaH8xoAAAAJ&hl=en
 
   - title: "Talks"
     url: /talks/    
@@ -23,5 +24,5 @@ main:
   - title: "CV"
     url: /files/DuJingnan_CV_02242025.pdf
     
-  - title: "Guide"
-    url: /markdown/
+   #- title: "Guide"
+   #  url: /markdown/
