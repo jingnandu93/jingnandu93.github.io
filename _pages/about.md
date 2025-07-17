@@ -19,5 +19,9 @@ redirect_from:
 - Cerebral cortex, cerebellum, striatum
 - Psychiatric disorders and cognition
 
+
+
+I developed a novel 15-network parcellation of the cerebral cortex - DU15NET. It was constructed by estimating networks from functional MRI data in 15 intensively sampled participants (scanned 8-11 times). DU15NET atlases can be utilized in group-based studies as a significant update to the previous group atlases with refinements that align with our current understanding of human cerebral network organization. To access the DU15NET atlases - please [click on this link](https://freesurfer.net/fswiki/CorticalParcellation_DU15NET).
+
 ![DU15NET-Consensus Atlas](images/consensus.png)
 
