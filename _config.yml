@@ -24,11 +24,11 @@ author:
   avatar           : "Jingnan_profile.png"
   name             : "Jingnan Du"
   pronouns         : # example: "she/her"  
-  bio              : "I am a cognitive neuroscientist at Harvard University."
+  bio              : "I am a cognitive neuroscientist at Department of Psychology, Harvard University."
   location         : "Cambridge, MA"
   employer         : "Harvard University"
   uri              : # URL
-  email            : "jingnandu3@gmail.com" 
+  email            : "jingnandu@fas.harvard.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : jingnandu # Replace this with you Bluesky username
+  bluesky          : jingnandu.bsky.social # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
