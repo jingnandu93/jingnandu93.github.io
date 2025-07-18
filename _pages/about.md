@@ -12,14 +12,17 @@ redirect_from:
  
 
 ## Research Interests
-- Human brain network organization
+- Large-scale human brain networks
 - High-level cognitive functions (language, social inference, memory)
-- Neuroimaging & computational neuroscience
-- Cerebral cortex, cerebellum, striatum
-- Psychiatric disorders and cognition
+- Precision Neuromodulation
 
 
 ## DU15NET: A Novel Atlas of the Human Cortex
+We developed DU15NET, a novel 15-network parcellation of the cerebral cortex derived from precision fMRI data in 15 intensively sampled participants (each scanned 8-11 times). The DU15NET atlases can be utilized in group-based studies as a significant update to the previous group atlases with refinements that align with our current understanding of human cerebral network organization. You can [access the DU15NET atlases here](https://freesurfer.net/fswiki/CorticalParcellation_DU15NET).
+
+![DU15NET-Consensus Atlas](images/consensus.png)
+
+## Supra-areal Association Megacluster
 I developed DU15NET, a novel 15-network parcellation of the cerebral cortex derived from precision fMRI data in 15 intensively sampled participants (each scanned 8-11 times). The DU15NET atlases can be utilized in group-based studies as a significant update to the previous group atlases with refinements that align with our current understanding of human cerebral network organization. You can [access the DU15NET atlases here](https://freesurfer.net/fswiki/CorticalParcellation_DU15NET).
 
 ![DU15NET-Consensus Atlas](images/consensus.png)
