@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
  
- Hello! I am currently a Postdoctoral Fellow at the Department of Psychology, Harvard University. My current research focuses on investigating the organization of large-scale human brain networks and their roles in higher-order cognitive functions, such as language processing, social inference and memory. Using multiple behavioral, neuroimaging, and computational approaches, I characterize human brain networks and how variation gives rise to differences in network organization and behavior in cerebral cortex, cerebellum and striatum. Of particular interest to me is the higher-order association cortex, which has disproportionately expanded in the human brain compared to non-human primates. By studying these brain circuits and their roles in cognitive function, I aim to uncover fundamental principles underlying brain organization and function, with implications for understanding psychiatric disorders.
+ Hello! I am a postdoctoral fellow in the Buckner lab at Harvard University. My current research focuses on investigating the organization of large-scale human brain networks and their roles in higher-order cognitive functions, such as language processing, social inference and episoic processing. Using multiple behavioral, neuroimaging, and computational approaches, I characterize human brain networks and how variation gives rise to differences in network organization and behavior in cerebral cortex, cerebellum and striatum. Of particular interest to me is the higher-order association cortex—regions of the brain that have undergone a disproportionate expansion during recent hominin evolution. By studying these brain circuits and their roles in cognitive function, I aim to uncover fundamental principles underlying brain organization and function, with implications for understanding psychiatric disorders. Before joining the Buckner lab as a postdoc, Jingnan completed his PhD at Fudan University and spent the final two years of his PhD studies as a visiting student in Dr. Randy Buckner’s lab at Harvard University.
+
+
 
  
 
