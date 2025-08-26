@@ -20,12 +20,12 @@ redirect_from:
 
 
 ## DU15NET: A Novel Atlas of the Human Cerebral Cortex
-We developed DU15NET, a novel 15-network parcellation of the cerebral cortex derived from precision fMRI data in 15 intensively sampled participants (each scanned 8-11 times). The DU15NET atlases can be utilized in group-based studies as a significant update to the previous group atlases with refinements that align with our current understanding of human cerebral network organization. You can [access the DU15NET atlases here](https://freesurfer.net/fswiki/CorticalParcellation_DU15NET).
+We developed DU15NET, a novel 15-network parcellation of the human cerebral cortex derived from precision fMRI data in 15 intensively sampled participants (each scanned 8-11 times). The DU15NET atlases can be utilized in group-based studies as a significant update to the previous group atlases, incorporating refined network topography—including the Language network, Salience/Parietal Memory Network, and Premotor-Posterior Parietal Rostral network—that better reflect the current understanding of human cerebral network organization. You can [access the DU15NET atlases here](https://freesurfer.net/fswiki/CorticalParcellation_DU15NET).
 
 ![DU15NET-Consensus Atlas](images/consensus.png)
 
-## Supra-areal Association Megacluster
-We recently discovered a novel topographic feature of the association cortex: parallel networks arranged in side-by-side juxtapositions, repeating across multiple association zones. These repeated zones link to three “domain-specialized” networks supporting language, social inference, and spatial/episodic processing, as well as two “domain-general” frontoparietal networks underpinning cognitive control. 
+## Supra-areal Association Megacluster (SAAMs)
+We recently discovered a novel topographic feature of the association cortex: parallel networks arranged in side-by-side juxtapositions, repeating across multiple association zones. These repeated zones link to three “domain-specialized” networks supporting language, social inference, and spatial/episodic processing, as well as two “domain-general” frontoparietal networks that underpin cognitive control functions. 
 
-![DU15NET-Consensus Atlas](images/SAAMs.png)
+![SAAMs](images/SAAMs.png)
 
