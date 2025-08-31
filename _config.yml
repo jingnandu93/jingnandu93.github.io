@@ -34,10 +34,10 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PGaH8xoAAAAJ&hl=en"
   impactstory      : # URL
-  # orcid            : "https://orcid.org/0000-0003-1647-6698"
+  orcid            : "https://orcid.org/0000-0003-1647-6698"
   semantic         : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Du+J"
-  researchgate     : # URL
+  researchgate     : # "https://www.researchgate.net/profile/Jingnan-Du-3?ev=hdr_xprf"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
