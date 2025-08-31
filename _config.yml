@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-1647-6698"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Du+J"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Du+J"
   researchgate     : # URL
 
   # Repositories and software development
