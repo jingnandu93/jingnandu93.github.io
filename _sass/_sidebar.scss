@@ -149,7 +149,7 @@
   font-size: 1.11em;  // 增加这一句，数值可调整
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
