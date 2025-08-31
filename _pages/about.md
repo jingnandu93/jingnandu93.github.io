@@ -13,7 +13,7 @@ redirect_from:
   z-index: 0;
   top: 0; left: 0;
   width: 100vw; height: 100vh;
-  background: url('consensus.png') center center/cover no-repeat;
+  background: url('images/consensus.png') center center/cover no-repeat;
   opacity: 0.22;
   pointer-events: none;
 }
