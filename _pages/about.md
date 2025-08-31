@@ -14,7 +14,7 @@ redirect_from:
   top: 0; left: 0;
   width: 100vw; height: 100vh;
   background: url('images/consensus.png') center center/cover no-repeat;
-  opacity: 0.22;
+  opacity: 0.06;
   pointer-events: none;
 }
 .page,
