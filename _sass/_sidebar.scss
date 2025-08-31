@@ -90,7 +90,7 @@
   }
 
   img {
-    max-width: 200px;
+    max-width: 175px;
    border-radius: 0%;
 
     @include breakpoint($large) {
@@ -146,7 +146,7 @@
 
 .author__bio {
   margin: 0;
-
+  font-size: 1.11em;  // 增加这一句，数值可调整
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
