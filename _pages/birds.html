@@ -1,0 +1,316 @@
+---
+title: "Bird Photography"
+permalink: /birds/
+author_profile: true
+---
+
+<style>
+  /* ── Gallery Grid ── */
+  .bird-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 2em 0;
+  }
+
+  .bird-card {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .bird-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+
+  .bird-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+
+  .bird-card:hover img {
+    transform: scale(1.03);
+  }
+
+  .bird-card .caption {
+    padding: 12px 14px;
+    background: #fff;
+  }
+
+  .bird-card .caption h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #222;
+  }
+
+  .bird-card .caption p {
+    margin: 0;
+    font-size: 0.85em;
+    color: #777;
+    font-style: italic;
+  }
+
+  /* ── Lightbox ── */
+  .lightbox-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.92);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: zoom-out;
+    animation: fadeIn 0.25s ease;
+  }
+
+  .lightbox-overlay.active {
+    display: flex;
+  }
+
+  .lightbox-overlay img {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 4px 40px rgba(0,0,0,0.5);
+    animation: zoomIn 0.3s ease;
+  }
+
+  .lightbox-overlay .lb-caption {
+    color: #e0e0e0;
+    margin-top: 16px;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  .lightbox-overlay .lb-caption strong {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+    background: none;
+    border: none;
+    transition: color 0.2s;
+    z-index: 10000;
+  }
+
+  .lightbox-close:hover {
+    color: #fff;
+  }
+
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.5em;
+    color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 12px;
+    transition: color 0.2s;
+    user-select: none;
+    z-index: 10000;
+  }
+
+  .lightbox-nav:hover {
+    color: #fff;
+  }
+
+  .lightbox-prev { left: 16px; }
+  .lightbox-next { right: 16px; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.92); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  /* ── Section Header ── */
+  .gallery-intro {
+    font-size: 1.05em;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0.5em;
+  }
+
+  .gallery-year {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #333;
+    margin: 2em 0 0.2em;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 600px) {
+    .bird-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<p class="gallery-intro">
+  Outside the lab, I enjoy bird photography. Here are some of my favorite captures from birding trips around New England and beyond. Click any photo to enlarge.
+</p>
+
+<!-- ════════════════════════════════════════════
+     HOW TO ADD PHOTOS:
+     1. Put your bird photos in /images/birds/
+     2. Copy a <div class="bird-card"> block below
+     3. Update the src, alt, title (h3), and location (p)
+     ════════════════════════════════════════════ -->
+
+<h2 class="gallery-year">2026</h2>
+
+<div class="bird-gallery">
+
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/red-tailed-hawk.jpg" alt="Red-tailed Hawk">
+    <div class="caption">
+      <h3>Red-tailed Hawk</h3>
+      <p>Charles River, Cambridge, MA</p>
+    </div>
+  </div>
+
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/blue-jay.jpg" alt="Blue Jay">
+    <div class="caption">
+      <h3>Blue Jay</h3>
+      <p>Fresh Pond, Cambridge, MA</p>
+    </div>
+  </div>
+
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/northern-cardinal.jpg" alt="Northern Cardinal">
+    <div class="caption">
+      <h3>Northern Cardinal</h3>
+      <p>Arnold Arboretum, Boston, MA</p>
+    </div>
+  </div>
+
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/great-blue-heron.jpg" alt="Great Blue Heron">
+    <div class="caption">
+      <h3>Great Blue Heron</h3>
+      <p>Fresh Pond, Cambridge, MA</p>
+    </div>
+  </div>
+
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/cedar-waxwing.jpg" alt="Cedar Waxwing">
+    <div class="caption">
+      <h3>Cedar Waxwing</h3>
+      <p>Mount Auburn Cemetery, Cambridge, MA</p>
+    </div>
+  </div>
+
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/snowy-owl.jpg" alt="Snowy Owl">
+    <div class="caption">
+      <h3>Snowy Owl</h3>
+      <p>Plum Island, MA</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════════════════════════════════════════
+     To add more years, just copy the pattern:
+
+<h2 class="gallery-year">2025</h2>
+<div class="bird-gallery">
+  <div class="bird-card" onclick="openLightbox(this)">
+    <img src="/images/birds/YOUR-PHOTO.jpg" alt="Bird Name">
+    <div class="caption">
+      <h3>Bird Name</h3>
+      <p>Location</p>
+    </div>
+  </div>
+</div>
+     ════════════════════════════════════════════ -->
+
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightbox" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox(event)">&times;</button>
+  <button class="lightbox-nav lightbox-prev" onclick="navLightbox(event, -1)">&#8249;</button>
+  <button class="lightbox-nav lightbox-next" onclick="navLightbox(event, 1)">&#8250;</button>
+  <img id="lb-img" src="" alt="">
+  <div class="lb-caption" id="lb-caption"></div>
+</div>
+
+<script>
+  var cards = [];
+  var currentIdx = 0;
+
+  function getAllCards() {
+    cards = Array.from(document.querySelectorAll('.bird-card'));
+  }
+
+  function openLightbox(card) {
+    getAllCards();
+    currentIdx = cards.indexOf(card);
+    showCurrent();
+    document.getElementById('lightbox').classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function showCurrent() {
+    var card = cards[currentIdx];
+    var img = card.querySelector('img');
+    var h3 = card.querySelector('h3');
+    var p = card.querySelector('.caption p');
+    document.getElementById('lb-img').src = img.src;
+    document.getElementById('lb-img').alt = img.alt;
+    document.getElementById('lb-caption').innerHTML =
+      '<strong>' + h3.textContent + '</strong> — ' + p.textContent;
+  }
+
+  function closeLightbox(e) {
+    if (e.target.classList.contains('lightbox-nav') ||
+        e.target.classList.contains('lightbox-prev') ||
+        e.target.classList.contains('lightbox-next')) return;
+    document.getElementById('lightbox').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function navLightbox(e, dir) {
+    e.stopPropagation();
+    currentIdx = (currentIdx + dir + cards.length) % cards.length;
+    showCurrent();
+  }
+
+  document.addEventListener('keydown', function(e) {
+    var lb = document.getElementById('lightbox');
+    if (!lb.classList.contains('active')) return;
+    if (e.key === 'Escape') {
+      lb.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    if (e.key === 'ArrowLeft') navLightbox(e, -1);
+    if (e.key === 'ArrowRight') navLightbox(e, 1);
+  });
+</script>
