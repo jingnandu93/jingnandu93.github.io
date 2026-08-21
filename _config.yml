@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "DuJingnan_08202026.png"
+  avatar           : "DuJingnan_08202026.jpg"
   name             : "Jingnan Du"
   pronouns         : # example: "she/her"  
   bio              : "I am a cognitive neuroscientist at the Department of Psychology, University of Notre Dame."
