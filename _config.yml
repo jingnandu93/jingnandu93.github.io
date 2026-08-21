@@ -21,11 +21,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Jingnan_profile.png"
+  avatar           : "DuJingnan_08202026.png"
   name             : "Jingnan Du"
   pronouns         : # example: "she/her"  
-  bio              : "I am a cognitive neuroscientist at Department of Psychology, University of Notre Dame."
-  location         : "South Bend, IN"
+  bio              : "I am a cognitive neuroscientist at the Department of Psychology, University of Notre Dame."
+  location         : "Notre Dame, IN"
    # employer         : "Harvard University"
   uri              : # URL
    # email            : "jingnandu@fas.harvard.edu" 
